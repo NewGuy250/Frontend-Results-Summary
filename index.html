@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+</head> 
+<body>
+  <main>
+    <!-- Wrap the whole thing -->
+    <div class="container">
+      <div class="results">
+        <p class="your-result">Your Result<p>
+
+          <!-- Get that circle -->
+
+        <div class="score-container">
+          <p class="score">76</p>
+          <p class="out-of-100">of 100</p>
+        </div>
+        
+        <p class="noun">Great</p>
+        <p class="percent">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      
+      
+      <div class="summary">
+
+        <p class="summary-text">Summary</p>
+
+        <!-- Each section gets a div -->
+
+        <div class="reaction-score">
+          <p><img src="assets/images/icon-reaction.svg" alt="reaction icon">Reaction</p>
+          <p><span class="black-text">0</span> / <span class="grey-text">100</span></p>
+        </div>
+        
+
+        <div class="memory-score">
+          <p><img src="assets/images/icon-memory.svg" alt="memory icon">Memory</p>
+          <p><span class="black-text">92</span> / <span class="grey-text">100</span></p>
+        </div>
+
+        
+        <div class="verbal-score">
+          <p><img src="assets/images/icon-verbal.svg" alt="verbal icon">Verbal</p>
+          <p><span class="black-text">61</span> / <span class="grey-text">100</span></p>
+        </div>
+
+        
+        <div class="visual-score">
+          <p><img src="assets/images/icon-visual.svg" alt="visual icon">Visual</p>
+          <p><span class="black-text">72</span> / <span class="grey-text">100</span></p>
+        </div>
+
+        <div class="continue-button-container">
+            <button class="continue-button">Continue</button>
+        </div>
+
+
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
